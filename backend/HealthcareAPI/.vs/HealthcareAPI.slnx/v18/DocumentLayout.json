@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\",
+  "WorkspaceRootPath": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\services\\bedrockservicce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\services\\bedrockservicce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\bedrockservicce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\services\\interfaces\\ibedrockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\services\\interfaces\\ibedrockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\interfaces\\ibedrockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\models\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\models\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:models\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\healthcareapi\\healthcareapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\healthcareapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:healthcareapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
@@ -46,13 +46,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\appsettings.json",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-19T12:18:47.391Z",
               "EditorCaption": ""
@@ -61,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Program.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T12:09:16.412Z",
               "EditorCaption": ""
@@ -73,12 +73,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BedrockServicce.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\BedrockServicce.cs",
+              "RelativeDocumentMoniker": "Services\\BedrockServicce.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\BedrockServicce.cs",
+              "RelativeToolTip": "Services\\BedrockServicce.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T11:43:56.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Controllers\\ChatController.cs",
               "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T11:52:13.93Z",
               "EditorCaption": ""
@@ -87,66 +100,49 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IBedrockService.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Services\\Interfaces\\IBedrockService.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\Interfaces\\IBedrockService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IBedrockService.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Services\\Interfaces\\IBedrockService.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\Interfaces\\IBedrockService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IBedrockService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T11:46:57.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BedrockServicce.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Services\\BedrockServicce.cs",
-              "RelativeDocumentMoniker": "Services\\BedrockServicce.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Services\\BedrockServicce.cs",
-              "RelativeToolTip": "Services\\BedrockServicce.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAYwIwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T11:43:56.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T11:46:57.465Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ChatResponse.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Models\\ChatResponse.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Models\\ChatResponse.cs",
               "RelativeDocumentMoniker": "Models\\ChatResponse.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Models\\ChatResponse.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Models\\ChatResponse.cs",
               "RelativeToolTip": "Models\\ChatResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T11:42:13.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T11:42:13.065Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ChatRequest.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Models\\ChatRequest.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Models\\ChatRequest.cs",
               "RelativeDocumentMoniker": "Models\\ChatRequest.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\Models\\ChatRequest.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Models\\ChatRequest.cs",
               "RelativeToolTip": "Models\\ChatRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T11:40:59.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T11:40:59.572Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "HealthcareAPI.http",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\HealthcareAPI.http",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\HealthcareAPI.http",
               "RelativeDocumentMoniker": "HealthcareAPI.http",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\HealthcareAPI\\HealthcareAPI.http",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\HealthcareAPI.http",
               "RelativeToolTip": "HealthcareAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-06-19T11:37:20.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T11:37:20.016Z"
             }
           ]
         }

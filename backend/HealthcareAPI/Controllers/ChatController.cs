@@ -14,16 +14,19 @@ namespace HealthcareAPI.Controllers
     {
         private readonly IBedrockService _bedrockService;
         private readonly ILogger<ChatController> _logger;
+        private readonly IConfiguration _configuration;
 
-        public ChatController(IBedrockService bedrockService, ILogger<ChatController> logger)
+
+        public ChatController(IBedrockService bedrockService, ILogger<ChatController> logger, IConfiguration configuration)
         {
 
             _bedrockService = bedrockService;
             _logger = logger;
+            _configuration = configuration;
         }
 
         /// <summary>
-        /// Ask a question to the Healthcare AI assistant 
+        /// Ask a question to the Pathology AI assistant 
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
@@ -50,6 +53,7 @@ namespace HealthcareAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public IActionResult Health()
         {
+            var appName = _configuration["App:Name"] ?? "Pathology AI Assistant";
             return Ok(new
             {
                 status = "Healthy",
