@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { fetchAuthSession } from 'aws-amplify/auth';
 import Message from './Message';
 import TypingIndicator from './TypingIndicator';
 import '../styles/ChatBox.css';
@@ -48,9 +49,15 @@ function ChatBox() {
     }]);
 
     try {
+      const session = await fetchAuthSession();
+      const token = session.tokens?.idToken?.toString();
+
       const response = await fetch(`${API_URL}/chat`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token && { 'Authorization': `Bearer ${token}` })
+        },
         body: JSON.stringify({ question: text }),
       });
 
