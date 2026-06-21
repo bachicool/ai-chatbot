@@ -15,8 +15,6 @@ public class BedrockService : IBedrockService
     private readonly ILogger<BedrockService> _logger;
     private readonly IConfiguration _configuration;
 
-    
-
     public BedrockService(
         IAmazonBedrockAgentRuntime bedrockAgent,
         IAmazonBedrockRuntime bedrockRuntime,
@@ -33,12 +31,13 @@ public class BedrockService : IBedrockService
     {
         try
         {
-
             var modelId = _configuration["Bedrock:ModelId"]
-    ?? throw new InvalidOperationException("ModelId not configured");
+                ?? throw new InvalidOperationException("ModelId not configured");
             var knowledgeBaseId = _configuration["Bedrock:KnowledgeBaseId"]
                 ?? throw new InvalidOperationException("KnowledgeBaseId not configured");
-            
+            var guardrailId = _configuration["Bedrock:GuardrailId"];
+            var guardrailVersion = _configuration["Bedrock:GuardrailVersion"];
+
             var providerName = _configuration["App:ProviderName"]
                 ?? "your pathology provider";
             var contactPhone = _configuration["App:ContactPhone"]
@@ -113,17 +112,41 @@ public class BedrockService : IBedrockService
             var invokeRequest = new InvokeModelRequest
             {
                 ModelId = modelId,
+                
                 ContentType = "application/json",
                 Accept = "application/json",
                 Body = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(requestBody))
             };
 
+
+            // Only apply guardrail if configured
+            if (!string.IsNullOrEmpty(guardrailId) && !string.IsNullOrEmpty(guardrailVersion))
+            {
+                invokeRequest.GuardrailIdentifier = guardrailId;
+                invokeRequest.GuardrailVersion = guardrailVersion;
+            }
             _logger.LogInformation("Invoking Nova Lite model");
 
             var invokeResponse = await _bedrockRuntime.InvokeModelAsync(invokeRequest);
 
             var responseJson = await new StreamReader(invokeResponse.Body).ReadToEndAsync();
             var responseDoc = JsonDocument.Parse(responseJson);
+
+            // Check if guardrail intervened
+            if (responseDoc.RootElement.TryGetProperty("stopReason", out var stopReasonEl))
+            {
+                var stopReason = stopReasonEl.GetString();
+                if (stopReason == "guardrail_intervened")
+                {
+                    _logger.LogWarning("Guardrail intervened for question: {Question}", question);
+                    return new ChatResponse
+                    {
+                        Answer = "I can only answer questions about pathology and healthcare services. Please ask me about tests, appointments, preparation, or results.",
+                        Sources = new List<string>()
+                    };
+                }
+            }
+
             var answer = responseDoc
                 .RootElement
                 .GetProperty("output")
