@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\services\\bedrockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\bedrockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\healthcareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:healthcareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\services\\bedrockservicce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:services\\bedrockservicce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{003D0AD0-445F-A432-55D9-D1DEC8B374AE}|HealthcareAPI.csproj|c:\\pavan\\code\\pav-healthcare-ai\\backend\\healthcareapi\\services\\interfaces\\ibedrockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,63 +50,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-20T13:04:43.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "HealthcareAPI",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\HealthcareAPI.csproj",
+              "RelativeDocumentMoniker": "HealthcareAPI.csproj",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\HealthcareAPI.csproj",
+              "RelativeToolTip": "HealthcareAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-20T12:58:32.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-19T12:18:47.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADkAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwEQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T12:09:16.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BedrockServicce.cs",
-              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\BedrockServicce.cs",
-              "RelativeDocumentMoniker": "Services\\BedrockServicce.cs",
-              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\BedrockServicce.cs",
-              "RelativeToolTip": "Services\\BedrockServicce.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAswJEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BedrockService.cs",
+              "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\BedrockService.cs",
+              "RelativeDocumentMoniker": "Services\\BedrockService.cs",
+              "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\BedrockService.cs",
+              "RelativeToolTip": "Services\\BedrockService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAswHUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T11:43:56.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
               "ToolTip": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Controllers\\ChatController.cs",
               "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T11:52:13.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IBedrockService.cs",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Services\\Interfaces\\IBedrockService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IBedrockService.cs",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ChatResponse.cs",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Models\\ChatResponse.cs",
               "RelativeDocumentMoniker": "Models\\ChatResponse.cs",
@@ -122,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ChatRequest.cs",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\Models\\ChatRequest.cs",
               "RelativeDocumentMoniker": "Models\\ChatRequest.cs",
@@ -134,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HealthcareAPI.http",
               "DocumentMoniker": "C:\\Pavan\\Code\\pav-healthcare-ai\\backend\\HealthcareAPI\\HealthcareAPI.http",
               "RelativeDocumentMoniker": "HealthcareAPI.http",

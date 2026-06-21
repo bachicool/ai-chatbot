@@ -15,7 +15,7 @@ public class BedrockService : IBedrockService
     private readonly ILogger<BedrockService> _logger;
     private readonly IConfiguration _configuration;
 
-    private const string ModelId = "amazon.nova-lite-v1:0";
+    
 
     public BedrockService(
         IAmazonBedrockAgentRuntime bedrockAgent,
@@ -33,9 +33,12 @@ public class BedrockService : IBedrockService
     {
         try
         {
+
+            var modelId = _configuration["Bedrock:ModelId"]
+    ?? throw new InvalidOperationException("ModelId not configured");
             var knowledgeBaseId = _configuration["Bedrock:KnowledgeBaseId"]
                 ?? throw new InvalidOperationException("KnowledgeBaseId not configured");
-
+            
             var providerName = _configuration["App:ProviderName"]
                 ?? "your pathology provider";
             var contactPhone = _configuration["App:ContactPhone"]
@@ -109,7 +112,7 @@ public class BedrockService : IBedrockService
 
             var invokeRequest = new InvokeModelRequest
             {
-                ModelId = ModelId,
+                ModelId = modelId,
                 ContentType = "application/json",
                 Accept = "application/json",
                 Body = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(requestBody))
